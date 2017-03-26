@@ -1,0 +1,4 @@
+# run方法
+sudo docker run --privileged --name nginx -d nginx_php /sbin/init
+# bash開き方
+sudo docker exec -it nginx bash
